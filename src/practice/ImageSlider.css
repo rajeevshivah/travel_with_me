@@ -1,0 +1,11 @@
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.slider-left {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+}
