@@ -1,5 +1,5 @@
 import React from "react"; //importing react library
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   BrowserRouter as Router,
   Route,
