@@ -13,9 +13,21 @@
 
 .main-container__user {
   display: flex;
+  width: 100%;
   justify-content: flex-end;
   gap: 5%;
   float: right;
+}
+
+.main-container__user__nameandreview {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  gap: 15%;
+  /* border: 2px solid red; */
+}
+.main-container__user__image {
+  width: 30%;
 }
 
 .main-container img {

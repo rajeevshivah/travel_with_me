@@ -10,7 +10,7 @@ const DUMMY_DATA = [
     travellerName: "Anshika",
     travellerImage:
       "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
-    star: "*****",
+    star: 5,
     quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
   },
 
@@ -21,7 +21,7 @@ const DUMMY_DATA = [
     travellerName: "Anshika",
     travellerImage:
       "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
-    star: "*****",
+    star: 2,
     quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
   },
   {
@@ -31,7 +31,7 @@ const DUMMY_DATA = [
     travellerName: "Anshika",
     travellerImage:
       "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
-    star: "*****",
+    star: 4,
     quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
   },
   {
@@ -41,7 +41,7 @@ const DUMMY_DATA = [
     travellerName: "Anshika",
     travellerImage:
       "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
-    star: "*****",
+    star: 5,
     quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
   },
 ];
