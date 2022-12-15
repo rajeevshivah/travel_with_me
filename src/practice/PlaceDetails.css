@@ -1,0 +1,24 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid red;
+  /* padding: 
+  10px; */
+}
+
+.main-container p {
+  float: left;
+}
+
+.main-container__user {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+  float: right;
+}
+
+.main-container img {
+  width: 80px;
+  height: 100px;
+}
