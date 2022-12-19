@@ -5,7 +5,8 @@ import "./SingleView.css";
 const SingleView = (props) => {
   console.log(props.item);
   return (
-    <div className="single-view">
+    <fieldset className="single-view">
+      <legend className="single-view__legend">{props.item.placeName}</legend>
       <ImageSlider image={props.item.placeImage} name={props.item.placeName} />
       <PlaceDetails
         image={props.item.travellerImage}
@@ -13,7 +14,7 @@ const SingleView = (props) => {
         quote={props.item.quote}
         star={props.item.star}
       />
-    </div>
+    </fieldset>
   );
 };
 

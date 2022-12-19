@@ -11,11 +11,11 @@ const PlaceDetails = (props) => {
           <div className="main-container__user__nameandreview">
             <h2>{props.name}</h2>
             <h3>
-              <FontAwesomeIcon icon={faStar} style={{ width: 15 }} />
-              <FontAwesomeIcon icon={faStar} style={{ width: 15 }} />
-              <FontAwesomeIcon icon={faStar} style={{ width: 15 }} />
-              <FontAwesomeIcon icon={faStar} style={{ width: 15 }} />
-              <FontAwesomeIcon icon={faStar} style={{ width: 15 }} />
+              <FontAwesomeIcon icon={faStar} className="faStar" />
+              <FontAwesomeIcon icon={faStar} className="faStar" />
+              <FontAwesomeIcon icon={faStar} className="faStar" />
+              <FontAwesomeIcon icon={faStar} className="faStar" />
+              <FontAwesomeIcon icon={faStar} className="faStar" />
             </h3>
           </div>
           <div className="main-container__user__image">

@@ -1,4 +1,5 @@
 import React from "react"; //importing react library
+import "bootstrap/dist/css/bootstrap.min.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   BrowserRouter as Router,
@@ -7,6 +8,7 @@ import {
   Switch,
 } from "react-router-dom";
 import View from "./practice/View";
+import Form from "./practice/form/Form";
 
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import Users from "./user/pages/Users";
@@ -20,9 +22,9 @@ function App() {
           <Route path="/" exact>
             {/* <Users /> */} <View />
           </Route>
-          {/* <Route path="/:userId/places">
-            <UserPlaces exact />
-          </Route> */}
+          <Route path="/share/form">
+            <Form exact />
+          </Route>
           {/* <Route path="/places/new" exact>
             <NewPlace />
           </Route> */}

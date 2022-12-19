@@ -26,11 +26,14 @@
   gap: 15%;
   /* border: 2px solid red; */
 }
+.faStar {
+  width: 20%;
+}
 .main-container__user__image {
   width: 30%;
 }
 
 .main-container img {
-  width: 80px;
-  height: 100px;
+  width: 100%;
+  height: auto;
 }

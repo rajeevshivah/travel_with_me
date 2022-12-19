@@ -5,11 +5,11 @@ import "./View.css";
 const DUMMY_DATA = [
   {
     placeImage:
-      "https://www.shutterstock.com/image-photo/rishikesh-yoga-city-india-ganges-260nw-1136356940.jpg",
+      "https://www.euttaranchal.com/tourism/photos/happy-valley-mussoorie-5606944.jpg",
     placeName: "Rishikesh",
     travellerName: "Anshika",
     travellerImage:
-      "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "https://i.pinimg.com/originals/09/ee/97/09ee9790e4a873be73302693a56a9bf6.jpg",
     star: 5,
     quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
   },
@@ -17,22 +17,22 @@ const DUMMY_DATA = [
   {
     placeImage:
       "https://www.shutterstock.com/image-photo/rishikesh-yoga-city-india-ganges-260nw-1136356940.jpg",
-    placeName: "Rishikesh",
-    travellerName: "Anshika",
+    placeName: "Musoorie",
+    travellerName: "Saumya",
     travellerImage:
-      "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "https://i.pinimg.com/564x/ac/55/47/ac5547f0bd276cbbad2fb5aa6cf8cf34.jpg",
     star: 2,
-    quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
+    quote: "Pahado ki rani Musoorie",
   },
   {
     placeImage:
-      "https://www.shutterstock.com/image-photo/rishikesh-yoga-city-india-ganges-260nw-1136356940.jpg",
-    placeName: "Rishikesh",
-    travellerName: "Anshika",
+      "https://thumbs.dreamstime.com/b/romantic-beach-night-goa-restaurant-menu-candle-lighting-palolem-india-69548327.jpg",
+    placeName: "Goa",
+    travellerName: "Ritik",
     travellerImage:
-      "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "https://cdn.pixabay.com/photo/2021/03/27/19/25/boy-6129399__340.jpg",
     star: 4,
-    quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
+    quote: "Goa is Like that quite river which is dangerous but quite",
   },
   {
     placeImage:
@@ -40,7 +40,7 @@ const DUMMY_DATA = [
     placeName: "Rishikesh",
     travellerName: "Anshika",
     travellerImage:
-      "https://images.unsplash.com/photo-1622782045716-a05bcc4f5ae8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "https://i.pinimg.com/originals/09/ee/97/09ee9790e4a873be73302693a56a9bf6.jpg",
     star: 5,
     quote: "Pahado pe pyar nai, Pahado se pyar hota hai",
   },
@@ -48,10 +48,6 @@ const DUMMY_DATA = [
 const View = () => {
   return (
     <div className="view-container">
-      {/* <ImageSlider
-          image="https://www.shutterstock.com/image-photo/rishikesh-yoga-city-india-ganges-260nw-1136356940.jpg"
-          name="Rishikesh"
-        /> */}
       {DUMMY_DATA.map((data) => {
         return <SingleView item={data} />;
       })}

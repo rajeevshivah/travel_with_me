@@ -13,7 +13,7 @@ const ImageSlider = (props) => {
         <FontAwesomeIcon icon={faArrowLeftLong} />
       </div>
       <div>
-        <img src={props.image} alt={props.name} />
+        <img src={props.image} alt={props.placeName} />
       </div>
       <div className="slider-right">
         <FontAwesomeIcon icon={faArrowRightLong} />

@@ -1,7 +1,19 @@
 .single-view {
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
+  background-color: rgb(233, 222, 222);
+  border-radius: 3%;
+}
+
+.single-view__legend {
+  width: auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: azure;
+  padding: 10px;
+  border: 0.2px solid;
+  border-radius: 5px;
 }
