@@ -1,4 +1,5 @@
 .single-view {
+  position: relative;
   display: flex;
   flex-direction: column;
   /* border: 2px solid green; */
@@ -9,11 +10,14 @@
 }
 
 .single-view__legend {
+  position: sticky;
+  align-self: flex-start;
+  font-size: small;
+  float: none;
   width: auto;
   text-align: center;
-  font-weight: bold;
-  background-color: azure;
-  padding: 10px;
-  border: 0.2px solid;
+  background-color: rgb(198, 218, 218);
+  padding: 5px;
+  border-top: 0.2px solid;
   border-radius: 5px;
 }

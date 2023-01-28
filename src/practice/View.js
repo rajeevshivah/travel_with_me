@@ -1,5 +1,5 @@
 import React from "react";
-import ImageSlider from "./ImageSlider";
+// import ImageSlider from "./ImageSlider";
 import SingleView from "./SingleView";
 import "./View.css";
 const DUMMY_DATA = [
